@@ -1,0 +1,188 @@
+.i_input{
+  border: solid #bbb 2px;
+  padding: 6px 10px;
+  display: block;
+  font-size: 14px;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  margin: auto;
+  margin-left: 5px;
+  resize: none;
+}
+.i_error{
+    border: solid #a76767 2px;
+}
+.i_input:hover{
+    border: solid #888 2px;
+}
+.i_input:focus{
+  border: solid #d6c70d 2px;
+}
+.i_input::placeholder{
+  color: eee;
+}
+.i_input:disabled{
+  color: rgb(105, 105, 105);
+  background-color: #ccc;
+  border: solid #ccc 2px;
+}
+.i_label{
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2e2e38;
+    margin: auto;
+    display: block;
+    margin-bottom: 2px;
+    line-height: 17px;
+    height: 17px;
+}
+.i_alerta{
+    width: 100%;
+    margin: auto;
+    font-size: 13px;
+    color: #ce1111;
+    padding-left: 10px;
+}
+.i_contenedor{
+    display: block;
+    width: 100%;
+    padding: 5px 30px;
+}
+/*=================checkbox====================*/
+.checlkContainter {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 6px;
+    cursor: pointer;
+    line-height: 25px;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checlkContainter input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: solid 2px #d6c70d;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checlkContainter:hover input ~ .checkmark {
+    background-color: #f6ec71;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checlkContainter input:checked ~ .checkmark {
+    background-color: #ebda00;
+    border: none;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checlkContainter input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checlkContainter .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* ------------- INPUT MONEY --------------- */
+  .im_contenedor{
+    width: 100%;
+    height: 24px;
+    border: solid 1px #9e9ea7;
+    border-radius: 2px;
+    text-align: right;
+  }
+
+  .im_input{
+    text-align: right;
+    width: 80%;
+    padding: 3px;
+  }
+  .im_icono{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    color: #75735b;
+  }
+.i_icon{
+  border: solid #bbb 2px;
+  padding: 0 4px;
+  font-size: 20px;
+  padding-top: 3px;
+  color: #aaa;
+  margin-right: -7px;
+}
+.i_iconLink{
+  border: solid #aaa 2px;
+  background-color: #bbb;
+  margin-left: -2px;
+  padding: 0 4px;
+  font-size: 20px;
+  padding-top: 3px;
+  color: #eee;
+  margin-right: -7px;
+  transition: 0.2s ease-in-out;
+}
+.i_iconLink:hover{
+  cursor: pointer;
+  border: solid #1777cf 2px;
+  background-color: #188ce5;
+}
+.i_contdivicon{
+  display: flex;
+    margin-left: 7px;
+    width: 100%;
+}
+
+/* ------------- INPUT AUTOCOMPLETE --------------- */
+
+.i_cont_resultlist{
+  margin-top: -3px;
+  background-color: #fff;
+  border: solid 1px #aaa;
+  margin-left: 9px;
+}
+.i_cont_resultlist div{
+  width: 100%;
+  padding: 3px 10px;
+  font-size: 13px;
+}
+.i_cont_resultlist div:hover, .i_cont_resultlist div:focus, .i_result_selected{
+  background-color: #87D3F2;
+}

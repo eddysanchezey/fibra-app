@@ -1,0 +1,14 @@
+.separador{
+padding:5px 20px;
+}
+.btn-block{
+   
+
+    background-color:grey;
+    color: #fff;
+    padding: 7px 12px;
+    border: solid 2px grey;
+    transition: 0.2s ease-in-out;
+    margin-right: 5px;
+    transition: 0.15s ease-in-out;
+}

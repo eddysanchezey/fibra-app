@@ -1,0 +1,186 @@
+.col-20{
+    width: 20%;
+}
+.col-18{
+    width: 18%;
+}
+.col-15{
+    width: 15%;
+}
+.w-400label .i_contenedor .i_label{
+    width: 400%;
+}
+.margin-10{
+    margin-left: 105px;
+    
+    /*
+    margin-top: -50px;
+    margin-bottom: 10px
+    */
+}
+.margin-Bottom-20{
+    margin-bottom: 20px;
+}
+.margenPlus{
+    margin-top: 40%;
+    }
+    .margenbloque{
+        margin-left:-2%;
+        padding-bottom: 8px;
+    }
+    .block{
+        display: block;
+    }
+    .width_22{
+        width: 22%;
+    }
+    .margin_8{
+        margin-left: 8%;
+    }
+    .heigth_pdf{
+        height:100vh ;
+    }
+    .ancho_pdf{
+        width: 100%;
+    }
+    .margenDerecho{
+        text-align: right !important;
+    }
+    .margenDerechoNumero  div input{
+        text-align: right !important;
+    }
+    
+    .margenIzquierdo{
+        text-align: left;
+    }
+    .margenCentro{
+        text-align: center;
+    }
+    .col-cabecera-der {
+        width: 15%;
+    }
+    .col-cabecera-izq {
+        width: 15%;
+    }
+    .col-cabecera-cen {
+        width: 70%;
+    }
+    .w_45{
+        width: 45%;
+    }
+    .w_40{
+        width: 40%;
+    }
+    /* NUEVOS ESTILOS - REGISTRO DE PARTICIPES */
+    .col_60{
+        width: 55%;
+    }
+    .col_18{
+        width: 22%;
+        margin: 0;
+    }
+    .pad-input{
+        padding-left: 53px;
+    }
+    .pad-input49{
+        padding-left: 49px;
+    }
+    .margin_5{
+        margin-left: 3%;
+        /*padding-left: 0;*/
+    }
+    /* FIN NUEVOS ESTILOS */
+    .table-cabecera{
+        BORDER-BOTTOM: DOTTED;
+        BORDER-TOP: DOTTED;
+    }
+    .margensuperior{
+        margin-top: 2%;
+    }
+    .text_size{
+        font-size: 8;
+    }
+    .margensuperior-20{
+        margin-top: 20px
+    }
+    .margensuperior-60{
+       margin-top: 40px
+    }
+    .bold_text{
+        font-weight: bold;
+    }
+    .data_table_renta{
+        width: auto;
+        /*width: 80%;*/
+        margin-left: 60px;/*80px*/
+        /* margin: auto; */
+        font-size: 14px;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    .data_table_renta-80{
+        width: 80%!important;
+    }
+    .data_table_renta thead tr th{
+        width: 180px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+    .data_table_renta tbody tr td{
+        width: 150px;
+        padding-top: 15px;
+        margin-bottom: 5px;
+    }
+    .data_table_renta thead td{
+        padding: 5px;
+    }
+    .data_table_renta tbody td{
+        padding: 5px;
+    }
+    .data_table_renta tr td{
+        border: 1px solid #bbb;
+    }
+    .border_th{
+        border: 1px solid #bbb;
+    }
+    .w_250px{
+        width:250px
+    }
+    .A4-page{
+        width: 210mm;
+        height: 297mm;
+        /*padding: 27mm 16mm 27mm 16mm !important;(top, right, bottom, and left)*/
+        /* en dirección de las agujas del reloj */
+        padding: 20mm 16mm 17mm 12mm !important;
+        
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+
+        /*Border pages*/
+        /*
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        */
+        
+
+        /*Ocultar PDF Enviar el contenido al fondo*/
+        
+        position: absolute;
+        z-index: -9;
+        
+        
+        
+        /*Text font*/
+        font-family:verdana !important;
+        font-size:12px !important;
+
+        /*    left: 0; */
+        /* top: 0; */
+        /* right: 0; */
+        /* bottom: 0; */        
+        /* content: ""; */
+        /* background-size: cover; */
+        
+    }

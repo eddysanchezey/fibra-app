@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab7d42de.chunk.css",
+    "main.js": "/static/js/main.8a2ad769.chunk.js",
+    "main.js.map": "/static/js/main.8a2ad769.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d42675b9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d42675b9.js.map",
+    "static/js/2.6f3e3264.chunk.js": "/static/js/2.6f3e3264.chunk.js",
+    "static/js/2.6f3e3264.chunk.js.map": "/static/js/2.6f3e3264.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.76f021d7029e61e6260717c609ef7ea9.js": "/precache-manifest.76f021d7029e61e6260717c609ef7ea9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ab7d42de.chunk.css.map": "/static/css/main.ab7d42de.chunk.css.map",
+    "static/media/CredicorpLogo.png": "/static/media/CredicorpLogo.c9f6bd25.png",
+    "static/media/FIBRA - Participes_Masivo.xlsx": "/static/media/FIBRA - Participes_Masivo.7178d1d3.xlsx",
+    "static/media/ey.svg": "/static/media/ey.82531dcd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d42675b9.js",
+    "static/js/2.6f3e3264.chunk.js",
+    "static/css/main.ab7d42de.chunk.css",
+    "static/js/main.8a2ad769.chunk.js"
+  ]
+}

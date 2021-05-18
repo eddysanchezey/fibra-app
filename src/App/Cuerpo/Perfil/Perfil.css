@@ -1,0 +1,70 @@
+.p_container{
+    width: 100%;
+    display: flex;
+}
+.p_sec_barra{
+    width: 300px;
+    padding: 20px;
+}
+.p_sec_contenido{
+    width: 100%;
+    padding: 20px;
+}   
+.p_imgperfil{
+    width: 160px;
+    height: 160px;
+    font-size: 140px;
+    text-align: center;
+    line-height: 160px;
+    color: #bbb;
+}
+.p_cont_botones{
+    padding: 5px 30px;
+}
+.p_tabledata{
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+}
+.p_tabledata td{
+    padding: 5px;
+}
+h4{
+    margin: 5px;
+}
+
+.p_td_left{
+    width: 30%;
+    font-weight: 600;
+}
+
+.p_inputtd{
+    border: solid #bbb 2px;
+    padding: 6px 10px;
+    display: block;
+    font-size: 14px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    resize: none;
+}
+
+.p_sec1_name{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 4px;
+}
+
+.p_sec1_mail{
+    font-size: 13px;
+    color: #333;
+    margin-top: 4px;
+}
+
+.p_sec1_range{
+    font-size: 13px;
+    color: #777;
+    margin-top: 4px;
+}

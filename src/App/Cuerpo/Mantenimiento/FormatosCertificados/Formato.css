@@ -1,0 +1,72 @@
+.margin-w5-left{
+    margin-left: 5%;
+}
+.margin-w2-left{
+    margin-left: 2%;
+}
+.margin-w10-left{
+    margin-left: 10%;
+}
+.margin-w15-left{
+    margin-left: 15%;
+}
+
+.imgA1 {
+    display: inline-block;
+    position: absolute;   
+    width: 70%;
+    height: 65%;
+    z-index: -1;
+}
+.text_table{
+
+    /* font-size: 8px !important;
+    font-family: Arial !important;
+     */
+    font-family:Arial, sans-serif;font-size:14px
+}
+.tg{
+    /*border-collapse:collapse !important;*/
+    border-spacing:0 !important;
+    
+    border-width:1px !important;
+}
+.tg thead  .border_th{
+    border-color:black !important;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style:solid ;
+    /*border-style:solid !important;*/
+}
+.tg thead .border_th_rigth{
+    border-color:black !important;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-style:solid ;
+}
+.tg tr td:first-child {
+    border-collapse:collapse !important;
+    border-spacing:0 !important;
+    border-color:black !important;
+}
+.tg tbody td{
+    border-collapse:collapse !important;
+    border-spacing:0 !important;
+    border-color:black !important;
+}
+
+
+.tg-c3ow{
+    
+    text-align:center;
+    vertical-align:center
+}
+.unbold{
+    font-weight: normal;
+}
+.bold{
+    font-weight: bolder  !important;
+}
+.tabkey {
+    white-space:pre;
+}
